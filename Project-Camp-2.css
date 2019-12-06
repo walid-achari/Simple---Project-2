@@ -1,0 +1,149 @@
+.body {
+    background:rgba(4, 161, 196, 0.589);
+}
+
+*{
+    padding: 0;
+    margin: 0
+}
+
+li {
+    list-style: none;
+}
+
+label {
+    line-height: 2;
+    color: rgb(147, 179, 157);
+    font-size: 17px;
+    font-family: cursive  ;
+}
+                          /* ********************************** */
+#title {
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(5,4,10,0.19);
+    background: none;
+    width: 300px;
+    margin: auto
+
+}
+
+#description {
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#survey-form{
+    background: rgba(31, 106, 119, 0.247);
+    width: 80%;
+    margin: 10px auto ;
+    border-radius: 5px;
+    padding: 50px 0;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.432);
+
+
+}
+
+h3 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.733);
+    padding: 10px;
+    background: white;
+    border-radius: 0 0 5px 5px;
+    width: 300px;
+    margin: 0 auto
+    
+}
+
+.ul , .form2 {
+    width: 60%;
+    margin: 20px auto;
+    background: rgba(107, 127, 133, 0.575);
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.432);
+
+}
+
+.ul li {
+    padding: 15px;
+}
+
+.ul li input , select {
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+/**/
+
+nav {
+    margin: 20px;
+    font-size: 17px
+}
+
+.form2 .radio2 {
+    padding: 10px;
+    line-height: 1.7;
+    color: white;
+    background: rgba(139, 189, 204, 0.507);
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.432);
+
+}
+
+.form2 section input {
+    line-height: 1.7;
+    
+}
+
+#labelradio2 {
+    margin-left: 16px
+}
+
+#ul-2 {
+   margin: 20px;
+   background: rgba(139, 189, 204, 0.507);
+   border-radius: 5px;
+   padding: 10px;
+   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.432);
+   
+}
+
+#ul-2 li {
+    padding: 10px 0;
+    font-size: 20px;
+    color: white
+
+}
+
+.div-1 {
+   width: 50%;
+   text-align: center;
+   margin: auto;
+   padding: 10px
+}
+
+.div-1 button {
+    font-size: 17px;
+    margin: 5px 5px;
+    padding: 5px 5px;
+}
+
+.div-1 button:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    background: black; 
+    color: rgb(189, 180, 180);
+    text-align: center;
+    font-size: 13px
+}
